@@ -1,0 +1,412 @@
+{
+  "config": {
+    "draws": 50000,
+    "k": 3,
+    "product_seed": 20261020,
+    "sequential_seed": 20261021,
+    "values": [
+      4,
+      9,
+      2,
+      14,
+      5,
+      21
+    ],
+    "weights": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ]
+  },
+  "estimators": [
+    {
+      "correction": "correct",
+      "design": "product",
+      "empirical_mean": 54.912571072231785,
+      "empirical_rmse": 11.860395827764389,
+      "empirical_sd": 11.860192184657608,
+      "exact_bias": 0.0,
+      "exact_mean": 55.0,
+      "exact_mean_fraction": "55",
+      "exact_rmse": 11.847220683862936,
+      "exact_variance": 140.35663793214977,
+      "exact_variance_fraction": "33902791492/241547475",
+      "mean_mcse": 0.05298238158711814
+    },
+    {
+      "correction": "naive",
+      "design": "product",
+      "empirical_mean": 55.84744,
+      "empirical_rmse": 13.856391064535288,
+      "empirical_sd": 13.830590894268513,
+      "exact_bias": 0.9300813008130078,
+      "exact_mean": 55.93008130081301,
+      "exact_mean_fraction": "34397/615",
+      "exact_rmse": 13.813102717519097,
+      "exact_variance": 189.9367554586115,
+      "exact_variance_fraction": "215516488/1134675",
+      "mean_mcse": 0.061633879556395196
+    },
+    {
+      "correction": "wrong_product",
+      "design": "sequential",
+      "empirical_mean": 55.329993270153686,
+      "empirical_rmse": 11.56674198711814,
+      "empirical_sd": 11.562149380810693,
+      "exact_bias": 0.360761573978003,
+      "exact_mean": 55.360761573978,
+      "exact_mean_fraction": "2179072571304036277/39361318546750200",
+      "exact_rmse": 11.605678629595076,
+      "exact_variance": 134.56162754018075,
+      "exact_variance_fraction": "208478132369532432292150303705922111/1549313397738741276462981200040000",
+      "mean_mcse": 0.051877090808984415
+    },
+    {
+      "correction": "correct",
+      "design": "sequential",
+      "empirical_mean": 54.97959839731413,
+      "empirical_rmse": 11.812834779143605,
+      "empirical_sd": 11.81293529156732,
+      "exact_bias": 0.0,
+      "exact_mean": 55.0,
+      "exact_mean_fraction": "55",
+      "exact_rmse": 11.853352796286021,
+      "exact_variance": 140.50197251322163,
+      "exact_variance_fraction": "372154307070246082311166955050678717525226425/2648747917295078134933529356755180984962391",
+      "mean_mcse": 0.05300980522756552
+    }
+  ],
+  "inclusion": {
+    "naive": [
+      0.13636363636363635,
+      0.2727272727272727,
+      0.4090909090909091,
+      0.5454545454545454,
+      0.6818181818181818,
+      0.9545454545454546
+    ],
+    "product": [
+      0.20609756097560974,
+      0.36585365853658536,
+      0.4865853658536585,
+      0.5756097560975609,
+      0.6402439024390244,
+      0.725609756097561
+    ],
+    "sequential": [
+      0.17586929324545422,
+      0.33281306756538953,
+      0.4681153985333552,
+      0.5791827539505559,
+      0.6645182947427529,
+      0.7795011919624922
+    ]
+  },
+  "law_total_variation": 0.0656469271161939,
+  "population_total": 55,
+  "subsets": [
+    {
+      "product": 0.007317073170731708,
+      "product_count": 370,
+      "product_empirical": 0.0074,
+      "product_fraction": "3/410",
+      "sequential": 0.004566675154910449,
+      "sequential_count": 225,
+      "sequential_empirical": 0.0045,
+      "sequential_fraction": "269/58905",
+      "subset": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "product": 0.00975609756097561,
+      "product_count": 505,
+      "product_empirical": 0.0101,
+      "product_fraction": "2/205",
+      "sequential": 0.006474240413868897,
+      "sequential_count": 300,
+      "sequential_empirical": 0.006,
+      "sequential_fraction": "7729/1193808",
+      "subset": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "product": 0.012195121951219513,
+      "product_count": 621,
+      "product_empirical": 0.01242,
+      "product_fraction": "1/82",
+      "sequential": 0.008657003471244958,
+      "sequential_count": 443,
+      "sequential_empirical": 0.00886,
+      "sequential_fraction": "3691/426360",
+      "subset": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "product": 0.01707317073170732,
+      "product_count": 848,
+      "product_empirical": 0.01696,
+      "product_fraction": "7/410",
+      "sequential": 0.014175298385824701,
+      "sequential_count": 757,
+      "sequential_empirical": 0.01514,
+      "sequential_fraction": "1348/95095",
+      "subset": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "product": 0.014634146341463415,
+      "product_count": 694,
+      "product_empirical": 0.01388,
+      "product_fraction": "3/205",
+      "sequential": 0.010282390468148982,
+      "sequential_count": 491,
+      "sequential_empirical": 0.00982,
+      "sequential_fraction": "548/53295",
+      "subset": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "product": 0.018292682926829267,
+      "product_count": 951,
+      "product_empirical": 0.01902,
+      "product_fraction": "3/164",
+      "sequential": 0.013761286013607994,
+      "sequential_count": 692,
+      "sequential_empirical": 0.01384,
+      "sequential_fraction": "49285/3581424",
+      "subset": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "product": 0.025609756097560974,
+      "product_count": 1302,
+      "product_empirical": 0.02604,
+      "product_fraction": "21/820",
+      "sequential": 0.022598162071846284,
+      "sequential_count": 1144,
+      "sequential_empirical": 0.02288,
+      "sequential_fraction": "541/23940",
+      "subset": [
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "product": 0.024390243902439025,
+      "product_count": 1219,
+      "product_empirical": 0.02438,
+      "product_fraction": "1/41",
+      "sequential": 0.019563769563769564,
+      "sequential_count": 1001,
+      "sequential_empirical": 0.02002,
+      "sequential_fraction": "235/12012",
+      "subset": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "product": 0.03414634146341464,
+      "product_count": 1660,
+      "product_empirical": 0.0332,
+      "product_fraction": "7/205",
+      "sequential": 0.03225532637297343,
+      "sequential_count": 1632,
+      "sequential_empirical": 0.03264,
+      "sequential_fraction": "380/11781",
+      "subset": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "product": 0.042682926829268296,
+      "product_count": 2151,
+      "product_empirical": 0.04302,
+      "product_fraction": "7/164",
+      "sequential": 0.043535141329258974,
+      "sequential_count": 2233,
+      "sequential_empirical": 0.04466,
+      "sequential_fraction": "4559/104720",
+      "subset": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "product": 0.02926829268292683,
+      "product_count": 1475,
+      "product_empirical": 0.0295,
+      "product_fraction": "6/205",
+      "sequential": 0.021651108609312943,
+      "sequential_count": 1097,
+      "sequential_empirical": 0.02194,
+      "sequential_fraction": "55387/2558160",
+      "subset": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "product": 0.036585365853658534,
+      "product_count": 1745,
+      "product_empirical": 0.0349,
+      "product_fraction": "3/82",
+      "sequential": 0.028981544771018455,
+      "sequential_count": 1489,
+      "sequential_empirical": 0.02978,
+      "sequential_fraction": "212/7315",
+      "subset": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "product": 0.05121951219512195,
+      "product_count": 2535,
+      "product_empirical": 0.0507,
+      "product_fraction": "21/410",
+      "sequential": 0.04763760491314671,
+      "sequential_count": 2328,
+      "sequential_empirical": 0.04656,
+      "sequential_fraction": "6601/138567",
+      "subset": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "product": 0.04878048780487805,
+      "product_count": 2450,
+      "product_empirical": 0.049,
+      "product_fraction": "2/41",
+      "sequential": 0.04118275515334339,
+      "sequential_count": 2121,
+      "sequential_empirical": 0.04242,
+      "sequential_fraction": "6553/159120",
+      "subset": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "product": 0.06829268292682927,
+      "product_count": 3389,
+      "product_empirical": 0.06778,
+      "product_fraction": "14/205",
+      "sequential": 0.06791958041958042,
+      "sequential_count": 3289,
+      "sequential_empirical": 0.06578,
+      "sequential_fraction": "777/11440",
+      "subset": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "product": 0.08536585365853659,
+      "product_count": 4348,
+      "product_empirical": 0.08696,
+      "product_fraction": "7/82",
+      "sequential": 0.09156725627313862,
+      "sequential_count": 4563,
+      "sequential_empirical": 0.09126,
+      "sequential_fraction": "1113/12155",
+      "subset": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "product": 0.07317073170731707,
+      "product_count": 3743,
+      "product_empirical": 0.07486,
+      "product_fraction": "3/41",
+      "sequential": 0.06537803441828209,
+      "sequential_count": 3251,
+      "sequential_empirical": 0.06502,
+      "sequential_fraction": "190244/2909907",
+      "subset": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "product": 0.1024390243902439,
+      "product_count": 5076,
+      "product_empirical": 0.10152,
+      "product_fraction": "21/205",
+      "sequential": 0.10792131844763424,
+      "sequential_count": 5493,
+      "sequential_empirical": 0.10986,
+      "sequential_fraction": "203/1881",
+      "subset": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "product": 0.12804878048780488,
+      "product_count": 6529,
+      "product_empirical": 0.13058,
+      "product_fraction": "21/164",
+      "sequential": 0.14533727366544705,
+      "sequential_count": 7207,
+      "sequential_empirical": 0.14414,
+      "sequential_fraction": "30983/213180",
+      "subset": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "product": 0.17073170731707318,
+      "product_count": 8389,
+      "product_empirical": 0.16778,
+      "product_fraction": "7/41",
+      "sequential": 0.20655423008364185,
+      "sequential_count": 10244,
+      "sequential_empirical": 0.20488,
+      "sequential_fraction": "7532/36465",
+      "subset": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}
